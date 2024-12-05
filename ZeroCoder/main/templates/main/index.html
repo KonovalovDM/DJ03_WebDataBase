@@ -1,0 +1,16 @@
+{% extends 'main/layoute.html' %}
+
+{% block title %}
+    <title>Главная страница</title>
+{% endblock %}
+
+{% block content %}
+
+    <h1 class="text-center">Главная страница моего сайта на Django<br>И это третий проект на Django!</h1>
+    {% load static %}
+    <div class="responsive-img-container">
+        <img src="{% static 'main/img/main.jpg' %}" alt="Главная" class="responsive-img">
+    </div>
+
+{% endblock %}
+

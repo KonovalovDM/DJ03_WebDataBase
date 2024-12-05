@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa; /* Светлый фон */
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.responsive-img {
+    max-width: 100%; /* Ограничение ширины контейнера */
+    height: auto;    /* Сохранение пропорций */
+    border-radius: 25px; /* Скругленные углы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: contain; /* Для правильного отображения больших изображений */
+}
+
+.responsive-img-container {
+    max-width: 1000px; /* Максимальная ширина для контейнера */
+    margin: 0 auto;   /* Центрирование изображения */
+}

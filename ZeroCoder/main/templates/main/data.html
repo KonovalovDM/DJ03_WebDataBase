@@ -1,0 +1,17 @@
+{% extends 'main/layoute.html' %}
+
+{% block title %}
+
+    <title>Данные</title>
+
+{% endblock %}
+
+{% block content %}
+
+    <h1 class="text-center">Эта страница организована специально для размещения важных данных.</h1>
+    {% load static %}
+    <div class="responsive-img-container">
+        <img src="{% static 'main/img/data.jpg' %}" alt="Главная" class="responsive-img">
+    </div>
+
+{% endblock %}

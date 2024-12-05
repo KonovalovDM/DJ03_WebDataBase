@@ -1,0 +1,17 @@
+{% extends 'main/layoute.html' %}
+
+{% block title %}
+
+    <title>Результаты тестов</title>
+
+{% endblock %}
+
+{% block content %}
+
+    <h1 class="text-center">А эта страница организована для вывода результатов тестирования.</h1>
+    {% load static %}
+    <div class="responsive-img-container">
+        <img src="{% static 'main/img/test.jpg' %}" alt="Тесты" class="responsive-img">
+    </div>
+
+{% endblock %}
