@@ -6,3 +6,6 @@ from .models import NewsPost
 def home(request):
     news = NewsPost.objects.all()
     return render(request, 'news/news.html', {'news': news})
+
+def create_news(request):
+    return render(request, 'news/AddNewPost.html')
