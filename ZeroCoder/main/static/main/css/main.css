@@ -20,3 +20,11 @@ body {
     max-width: 1000px; /* Максимальная ширина для контейнера */
     margin: 0 auto;   /* Центрирование изображения */
 }
+/* Футер */
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+    width: 100%;
+    text-align: center;
+    margin-top: auto; /* Сдвиг футера вниз */
+}
